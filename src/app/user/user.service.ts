@@ -7,8 +7,8 @@ import { of } from 'rxjs';
 export class UserService {
 
   users = [
-    {id: 1, anme: "John Doe" },
-    {id: 2, anme: "maria Doe" }
+    {id: 1, name: "John Doe" },
+    {id: 2, name: "maria Doe" }
   ]
 
   constructor() { }
